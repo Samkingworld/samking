@@ -1,0 +1,191 @@
+
+*{
+			box-sizing: border-box;
+			}
+			
+body{
+				background-color: grey;
+				height: 100%;
+				position: relative;
+				
+				
+}
+
+.container{
+				background-color: white;
+				margin: 40px;
+				border-radius: 15px;
+}
+
+.top{
+				background-color: white;
+				margin: 40px;
+				padding-top: 20px;
+}
+
+.textone{
+				color: #2aa994;
+				margin-bottom: 10px;
+}
+
+.texttwo{
+				color: black;
+				margin-bottom: 0;
+				padding-bottom: 0;
+}
+
+.pone{
+				color: grey;
+}
+
+.bottom{
+				
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-start;
+				overflow: hidden;
+}
+
+.card{
+				box-shadow: 1px 1px 0px #888888;
+				padding-bottom: 30px;
+				padding-left: 40px;
+				padding-right: 50px;
+				color: white;
+				box-sizing: border-box;
+				margin-bottom: 20px;
+				
+}
+
+.caseone{
+				background-color: #009aa8;
+				width: 50%;
+				padding-right: 80px;
+				
+}
+
+.casetwo{
+				background-color: #072c28;
+				width: 50%;
+}
+
+.span{
+				font-size: 0.6rem;
+				font-family: Verdana San-serif;
+}
+
+.price{
+				font-size: 1.3rem;
+}
+
+.signup{
+				width: 80%;
+				border-radius: 9px;
+				color: white;
+				background-color: #14f335;
+				border: none;
+				padding: 10px;
+}
+
+section {
+				padding:10px 8px 15px 15px;
+				text-align: justify;
+				box-shadow: 2px 1px 2px #888888;
+				margin-bottom: 5px;
+}
+
+section > details > summary{
+				color: blue;
+				margin-bottom: 10px;
+}
+
+section > details > p{
+				margin-left: 10px;
+}
+
+.bg-model {
+				position: absolute;
+				top: 0; 								
+				background-color: rgba(0, 0, 0, 0.8);
+				display: none;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+}
+
+.bg-content {
+				width: 300px;
+				height: 300px;
+				position: relative;
+				background-color: white;
+				text-align: center;
+				border-radius: 7px;
+}
+
+.close{
+				position: absolute;
+				top: 5px;
+				right: 20px;
+				transform: rotate(45deg);
+				color: blue;
+				font-size: 1.8em;
+}
+
+.logo{
+				width: 20%;
+				margin: 15px auto;
+				display: block;
+}
+
+input{
+				border: 1px solid #158cff;
+				display: block;
+				margin: 20px auto;
+				height: 30px;
+				border-radius: 7px;
+}
+
+.create{
+				width: 30%;
+				background-color: #158cff;
+				border-radius: 7px;
+				border: none;
+				padding: 5px;
+				color: white;
+}
+
+
+footer{
+				background-color: black;
+				color: white;
+				text-align: center;
+				border-radius: 0 0 9px 9px;
+				padding: 5px;
+}
+
+@media screen and (max-width: 480px){
+				.bottom{
+								flex-wrap: wrap;	
+								justify-content: center;
+								
+				}
+				
+				.card{
+								width: 100%;
+								padding-right: 10px;
+								margin-top: 3px;
+				}
+				
+		/* 	.caseone {
+								border-radius: 0 0 0 0;
+				}
+				
+				.casetwo {
+								border-radius: 0 0 9px 9px;
+				} */	
+				
+				footer{
+								font-size: 0.5rem;
+				}
+}
