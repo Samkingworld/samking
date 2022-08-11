@@ -130,6 +130,7 @@ section > details > p{
 				transform: rotate(45deg);
 				color: blue;
 				font-size: 1.8em;
+				cursor: pointer;
 }
 
 .logo{
